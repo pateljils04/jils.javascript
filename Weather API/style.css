@@ -1,0 +1,16 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.profile{
+    /* padding: 20px 10px; */
+    padding-top:10px ;
+    padding-bottom: 10px;
+    border: 5px solid black;
+    text-align: center;
+}
+.profile img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+}
